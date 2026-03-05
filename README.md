@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
@@ -132,8 +133,8 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Reklamy i marketing</button>
   <div class="panel">
     <ul>
-      <li>Projektowanie bannerów, plakatów, ulotek, billboardów – od 150 zł/szt</li>
-      <li>Wizytówki – od 120 zł/szt</li>
+      <li>Projektowanie bannerów, plakatów, ulotek, billboardów – 150 zł/szt</li>
+      <li>Wizytówki – 120 zł/szt</li>
     </ul>
   </div>
 
@@ -141,9 +142,9 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Grafiki do mediów społecznościowych</button>
   <div class="panel">
     <ul>
-      <li>Grafiki na kanały social media (Facebook, Instagram, TikTok) – 120–160 zł/szt</li>
-      <li>Miniaturki do filmów na YouTube – 120–150 zł/szt</li>
-      <li>Szablony do Instagram Stories, postów i reelsów – 150–180 zł/szt</li>
+      <li>Grafiki na kanały social media (Facebook, Instagram, TikTok) – 150 zł/szt</li>
+      <li>Miniaturki do filmów na YouTube – 140 zł/szt</li>
+      <li>Szablony do Instagram Stories, postów i reelsów – 160 zł/szt</li>
     </ul>
   </div>
 
@@ -151,9 +152,9 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Branding i identyfikacja wizualna</button>
   <div class="panel">
     <ul>
-      <li>Tworzenie logo – 250–400 zł</li>
-      <li>System identyfikacji wizualnej firmy – 500–800 zł</li>
-      <li>Projektowanie stron internetowych – od 800 zł</li>
+      <li>Tworzenie logo – 400 zł</li>
+      <li>System identyfikacji wizualnej firmy – 800 zł</li>
+      <li>Projektowanie stron internetowych – 1500 zł</li>
     </ul>
   </div>
 
@@ -161,34 +162,28 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Współprace – prowadzenie Social Mediów</button>
   <div class="panel">
     <ul>
-      <li>Basic: 4 grafiki tygodniowo – 300 zł/mies</li>
-      <li>Standard: 7 grafik tygodniowo – 400 zł/mies</li>
-      <li>Premium: 7 grafik tygodniowo + animacje – 500 zł/mies</li>
+      <li>Basic: 4 grafiki tygodniowo – 400 zł/mies</li>
+      <li>Standard: 7 grafik tygodniowo – 600 zł/mies</li>
+      <li>Premium: 7 grafik tygodniowo + animacje – 900 zł/mies</li>
       <li>Pakiet dla klubów piłkarskich:
         <ul>
-          <li>Basic – 250 zł/mies</li>
+          <li>Basic – 200 zł/mies</li>
           <li>Standard – 350 zł/mies</li>
           <li>Premium – 500 zł/mies</li>
-          <li>Pakiet+ (dodatek do każdego formatu) – animacje, wywiady, transmisje live, skróty meczów - wycena indywidualna</li>
-        </ul
+          <li>Pakiet+ (dodatek do każdego formatu) – animacje, wywiady, transmisje live, skróty meczów</li>
+        </ul>
       </li>
       <li>Miniaturki do filmów na YouTube:
         <ul>
-          <li>4/mies – 400 zł</li>
+          <li>4/mies – 500 zł</li>
           <li>8/mies – 800 zł</li>
-          <li>12/mies – 1200 zł</li>
-        </ul>
-        </li>
-      <li>Projektowanie stron internetowych:
-        <ul>
-          <li>Basic – 1500-4000 zł</li>
-          <li>Standard – 3000-7000 zł</li>
+          <li>12/mies – 1000 zł</li>
         </ul>
       </li>
       <li>Szablony do Instagram Stories, postów i reelsów:
         <ul>
-          <li>5 szablonów – 500 zł</li>
-          <li>10 szablonów – 700 zł</li>
+          <li>5 szablonów – 700 zł</li>
+          <li>10 szablonów – 1200 zł</li>
         </ul>
       </li>
     </ul>
@@ -198,7 +193,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Multimedia i animacje</button>
   <div class="panel">
     <ul>
-      <li>Animowane reklamy i intro do filmów – 200–400 zł/szt</li>
+      <li>Animowane reklamy i intro do filmów – 400–600 zł/szt</li>
       <li>Motion design – wycena indywidualna</li>
     </ul>
   </div>
@@ -207,13 +202,11 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Projekty niestandardowe</button>
   <div class="panel">
     <ul>
-      <li>Infografiki do raportów, prezentacji, postów edukacyjnych – 150–300 zł/szt</li>
+      <li>Infografiki do raportów, prezentacji, postów edukacyjnych – 200–400 zł/szt</li>
       <li>Grafiki do gier i aplikacji – wycena indywidualna</li>
     </ul>
   </div>
 </section>
-</div>
-
 
 <!-- MEDIA -->
 <section id="media" class="links">
@@ -268,9 +261,11 @@ function closeModal(){
 function openForm(){
   formModal.classList.add("active");
 }
+
+// Formularz z komunikatem Gmail
 meetingForm.addEventListener("submit", e=>{
   e.preventDefault();
-  alert("Dziękujemy! W celu potwierdzenia spotkania,wyślij wiadomość na milcarzkacper65@gmail.com.");
+  alert("Potwierdź zainteresowanie wysłaniem wiadomości na Gmail: milcarzkacper65@gmail.com");
   formModal.classList.remove("active");
 });
 
@@ -291,3 +286,5 @@ for(let i=0;i<acc.length;i++){
 }
 </script>
 
+</body>
+  </html>
