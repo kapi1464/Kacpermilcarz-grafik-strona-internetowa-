@@ -211,8 +211,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 <section id="media" class="links">
   <h2>Media społecznościowe</h2>
   <a href="https://www.facebook.com/share/1HFEaFoNi3/" target="_blank">Facebook</a>
-  <a href="https://www.instagram.com/__football_vision__" target="_blank">Instagram firmowy</a>
-  <a href="https://www.instagram.com/14kapi" target="_blank">Instagram prywatny</a>
+  <a href="https://www.instagram.com/14kapi" target="_blank">Instagram</a>
 </section>
 
 <!-- KONTAKT -->
