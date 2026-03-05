@@ -225,7 +225,11 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 
 <!-- KONTAKT -->
 <section id="contact" class="contact">
-  <p>📞 785 514 285</p>
+  <p>
+    <a href="mailto:milcarzkacper65@gmail.com" style="color:white;text-decoration:none;font-size:1.1rem;">
+      <i class="fa-solid fa-envelope"></i> milcarzkacper65@gmail.com
+    </a>
+  </p>
   <span id="scheduleBtn" onclick="openForm()">Umów się</span>
 </section>
 
