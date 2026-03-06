@@ -120,6 +120,13 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
     <div class="portfolio-item"><img src="https://i.postimg.cc/KKjYqyvV/Picsart-26-02-13-17-36-50-090.jpg" onclick="openModal(this)"></div>
     <div class="portfolio-item"><img src="https://i.postimg.cc/gwj0SP2b/Picsart-26-02-14-17-58-01-515.jpg" onclick="openModal(this)"></div>
     <div class="portfolio-item"><img src="https://i.postimg.cc/VSvNGckQ/Picsart-26-02-14-20-42-41-620.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item">
+  <img src="https://i.postimg.cc/BL9Hxbmx/2-20260306-211005-0001.png" onclick="openModal(this)">
+</div>
+
+<div class="portfolio-item">
+  <img src="https://i.postimg.cc/9R5ZG0L1/3-20260306-211005-0002.png" onclick="openModal(this)">
+    </div>
     <div class="portfolio-item"><img src="https://i.postimg.cc/8FcCKVz8/Picsart-26-02-15-00-24-47-924.jpg" onclick="openModal(this)"></div>
   </div>
 </section>
@@ -165,6 +172,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
       <li>Standard: 7 grafik tygodniowo – 500 zł/mies</li>
       <li>Premium: 7 grafik tygodniowo + animacje – 600 zł/mies</li>
         </ul>
+      </li>
       <li>Miniaturki do filmów na YouTube:
         <ul>
           <li>4/mies – 400 zł</li>
@@ -178,7 +186,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
           <li>10 szablonów – 1200 zł</li>
         </ul>
       </li>
-
+    </ul>
   </div>
 
   <!-- Współprace z klubami sportowymi -->
@@ -193,7 +201,8 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
     (wyniki meczowe,zapowiedzi meczy,składy,*plakaty,dzień meczowy,informacje klubowe,animacje-video,wywiady-video)</li>
           <li>Pakiet + (animacje, wywiady, transmisje live, skróty meczów) - wycena indywidualna</li>
         </ul>
-      
+      </li>
+    </ul>
   </div>
     
     
@@ -232,6 +241,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   </p>
   <span id="scheduleBtn" onclick="openForm()">Umów się</span>
 </section>
+
 
 <footer>© 2026 Kacper Milcarz</footer>
 
