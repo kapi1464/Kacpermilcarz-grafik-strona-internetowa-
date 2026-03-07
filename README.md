@@ -96,7 +96,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 
 <!-- PRACE -->
 <section id="works" class="gallery">
-  <div class="work"><h2>Grafiki</h2><p>Grafiki meczowe i posty promocyjne.</p></div>
+  <div class="work"><h2>Strony internetowe</h2><p>Projekowanie dla firm, klubów sportowych oraz twórców</p></div>
   <div class="work"><h2>Social Media</h2><p>Prowadzenie Facebooka, Instagrama, TikToka.</p></div>
   <div class="work"><h2>Event i reklamy</h2><p>Banery i grafiki reklamowe.</p></div>
 </section>
@@ -119,6 +119,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <div id="moreImages" style="display:none; margin-top:20px;" class="portfolio-grid">
     <div class="portfolio-item"><img src="https://i.postimg.cc/KKjYqyvV/Picsart-26-02-13-17-36-50-090.jpg" onclick="openModal(this)"></div>
     <div class="portfolio-item"><img src="https://i.postimg.cc/gwj0SP2b/Picsart-26-02-14-17-58-01-515.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/VSvNGckQ/Picsart-26-02-14-20-42-41-620.jpg" onclick="openModal(this)"></div>
     <div class="portfolio-item">
   <img src="https://i.postimg.cc/BL9Hxbmx/2-20260306-211005-0001.png" onclick="openModal(this)">
 </div>
@@ -170,7 +171,8 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
       <li>Basic: 4 grafiki tygodniowo – 300 zł/mies</li>
       <li>Standard: 7 grafik tygodniowo – 500 zł/mies</li>
       <li>Premium: 7 grafik tygodniowo + animacje – 600 zł/mies</li>
-    </ul>
+        </ul>
+      </li>
       <li>Miniaturki do filmów na YouTube:
         <ul>
           <li>4/mies – 400 zł</li>
@@ -184,6 +186,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
           <li>10 szablonów – 1200 zł</li>
         </ul>
       </li>
+    </ul>
   </div>
 
   <!-- Współprace z klubami sportowymi -->
@@ -198,6 +201,8 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
     (wyniki meczowe,zapowiedzi meczy,składy,*plakaty,dzień meczowy,informacje klubowe,animacje-video,wywiady-video)</li>
           <li>Pakiet + (animacje, wywiady, transmisje live, skróty meczów) - wycena indywidualna</li>
         </ul>
+      </li>
+    </ul>
   </div>
     
     
