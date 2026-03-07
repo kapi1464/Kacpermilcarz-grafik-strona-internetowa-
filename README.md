@@ -96,7 +96,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 
 <!-- PRACE -->
 <section id="works" class="gallery">
-  <div class="work"><h2>Strony internetowe</h2><p>Projekowanie dla firm, klubów sportowych oraz twórców</p></div>
+  <div class="work"><h2>Strony internetowe</h2><p>Projekowanie dla firm, klubów sportowych oraz twórców internetowych.</p></div>
   <div class="work"><h2>Social Media</h2><p>Prowadzenie Facebooka, Instagrama, TikToka.</p></div>
   <div class="work"><h2>Event i reklamy</h2><p>Banery i grafiki reklamowe.</p></div>
 </section>
