@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
@@ -48,6 +47,14 @@ main{padding:80px 20px;display:flex;flex-direction:column;gap:80px;align-items:c
 .read-more{display:inline-block;margin-top:12px;font-size:.8rem;cursor:pointer;opacity:.85;transition:.3s;}
 .read-more:hover{letter-spacing:1px;}
 
+/* ===== ACCORDION (CENNIK) ===== */
+.accordion-btn{background:#151515;color:#fff;cursor:pointer;padding:15px;border:none;text-align:left;outline:none;font-size:1rem;width:100%;border-radius:12px;margin-bottom:8px;transition:.3s;}
+.accordion-btn:hover{background:#222;}
+.panel{padding:0 15px;display:none;background:#111;border-radius:12px;margin-bottom:10px;}
+.panel ul{list-style:none;padding:10px 0;}
+.panel li{padding:5px 0;border-bottom:1px solid #222;}
+.panel li:last-child{border-bottom:none;}
+
 /* ===== MODALE ===== */
 .modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.95);justify-content:center;align-items:center;z-index:9999;}
 .modal.active{display:flex;}
@@ -74,11 +81,12 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <h1>Kacper Milcarz – Grafik</h1>
   <p>Grafika, która przyciąga uwagę w mediach społecznościowych</p>
   <div class="about-me">
-    <p>Jestem grafikiem specjalizującym się w projektach sportowych oraz grafikach do social mediów. Tworzę estetyczne i dynamiczne materiały, które budują wizerunek i zwiększają zaangażowanie.</p>
+    <p>Jestem grafikiem specjalizującym się w projektach sportowych oraz grafikach do social mediów. Tworzę estetyczne i dynamiczne materiały, które budują wizerunek i zwiększają zaangażowanie w internecie.</p>
   </div>
   <div class="tiles">
     <a href="#works" class="tile"><i class="fa-solid fa-pen-nib"></i><span>Prace</span></a>
     <a href="#portfolio" class="tile"><i class="fa-solid fa-image"></i><span>Portfolio</span></a>
+    <a href="#pricing" class="tile"><i class="fa-solid fa-list"></i><span>Cennik</span></a>
     <a href="#media" class="tile"><i class="fa-solid fa-hashtag"></i><span>Media</span></a>
     <a href="#contact" class="tile"><i class="fa-solid fa-phone"></i><span>Kontakt</span></a>
   </div>
@@ -86,12 +94,14 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 
 <main>
 
+<!-- PRACE -->
 <section id="works" class="gallery">
-  <div class="work"><h2>Grafiki</h2><p>Grafiki meczowe i posty promocyjne.</p></div>
+  <div class="work"><h2>Strony internetowe</h2><p>Projekowanie dla firm, klubów sportowych oraz twórców.</p></div>
   <div class="work"><h2>Social Media</h2><p>Prowadzenie Facebooka, Instagrama, TikToka.</p></div>
   <div class="work"><h2>Event i reklamy</h2><p>Banery i grafiki reklamowe.</p></div>
 </section>
 
+<!-- PORTFOLIO -->
 <section id="portfolio">
   <h2 style="text-align:center;margin-bottom:30px;">Portfolio</h2>
   <div class="portfolio-grid">
@@ -110,24 +120,132 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
     <div class="portfolio-item"><img src="https://i.postimg.cc/KKjYqyvV/Picsart-26-02-13-17-36-50-090.jpg" onclick="openModal(this)"></div>
     <div class="portfolio-item"><img src="https://i.postimg.cc/gwj0SP2b/Picsart-26-02-14-17-58-01-515.jpg" onclick="openModal(this)"></div>
     <div class="portfolio-item"><img src="https://i.postimg.cc/VSvNGckQ/Picsart-26-02-14-20-42-41-620.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item">
+  <img src="https://i.postimg.cc/BL9Hxbmx/2-20260306-211005-0001.png" onclick="openModal(this)">
+</div>
+
+<div class="portfolio-item">
+  <img src="https://i.postimg.cc/9R5ZG0L1/3-20260306-211005-0002.png" onclick="openModal(this)">
+    </div>
     <div class="portfolio-item"><img src="https://i.postimg.cc/8FcCKVz8/Picsart-26-02-15-00-24-47-924.jpg" onclick="openModal(this)"></div>
   </div>
 </section>
 
+<!-- CENNIK / OFERTA -->
+<section id="pricing" class="links">
+  <h2 style="text-align:center;margin-bottom:30px;">Oferta usług graficznych / Cennik</h2>
+
+  <!-- Reklamy i marketing -->
+  <button class="accordion-btn">Reklamy i marketing</button>
+  <div class="panel">
+    <ul>
+      <li>Projektowanie bannerów, plakatów, ulotek, billboardów – 150 zł/szt</li>
+      <li>Wizytówki – 120 zł/szt</li>
+    </ul>
+  </div>
+
+  <!-- Grafiki do mediów społecznościowych -->
+  <button class="accordion-btn">Grafiki do mediów społecznościowych</button>
+  <div class="panel">
+    <ul>
+      <li>Grafiki na kanały social media (Facebook, Instagram, TikTok) – 150 zł/szt</li>
+      <li>Miniaturki do filmów na YouTube – 140 zł/szt</li>
+      <li>Szablony do Instagram Stories, postów i reelsów – 160 zł/szt</li>
+    </ul>
+  </div>
+
+  <!-- Branding i identyfikacja wizualna -->
+  <button class="accordion-btn">Branding i identyfikacja wizualna</button>
+  <div class="panel">
+    <ul>
+      <li>Tworzenie logo – od 400 zł</li>
+      <li>System identyfikacji wizualnej firmy – 800 zł</li>
+      <li>Projektowanie stron internetowych – wycena indywidualna </li>
+    </ul>
+  </div>
+
+  <!-- Współprace -->
+  <button class="accordion-btn">Współprace – prowadzenie Social Mediów</button>
+  <div class="panel">
+    <ul>
+      <li>Basic: 4 grafiki tygodniowo – 300 zł/mies</li>
+      <li>Standard: 7 grafik tygodniowo – 500 zł/mies</li>
+      <li>Premium: 7 grafik tygodniowo + animacje – 600 zł/mies</li>
+        </ul>
+      </li>
+      <li>Miniaturki do filmów na YouTube:
+        <ul>
+          <li>4/mies – 400 zł</li>
+          <li>8/mies – 800 zł</li>
+          <li>12/mies – 1000 zł</li>
+        </ul>
+      </li>
+      <li>Szablony do Instagram Stories, postów i reelsów:
+        <ul>
+          <li>5 szablonów – 600 zł</li>
+          <li>10 szablonów – 1200 zł</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Współprace z klubami sportowymi -->
+  <button class="accordion-btn">Współprace z klubami sportowymi</button>
+  <div class="panel">
+  <ul>
+          <li>Basic – 250 zł/mies   
+    (wyniki meczowe,zapowiedzi meczy,informacje klubowe)</li>
+          <li>Standard – 350 zł/mies
+    (wyniki meczowe,zapowiedzi meczy,składy,*plakaty,dzień meczowy,informacje klubowe)</li>
+          <li>Premium – 400 zł/mies
+    (wyniki meczowe,zapowiedzi meczy,składy,*plakaty,dzień meczowy,informacje klubowe,animacje-video,wywiady-video)</li>
+          <li>Pakiet + (animacje, wywiady, transmisje live, skróty meczów) - wycena indywidualna</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+    
+    
+  <!-- Multimedia i animacje -->
+  <button class="accordion-btn">Multimedia i animacje</button>
+  <div class="panel">
+    <ul>
+      <li>Animowane reklamy i intro do filmów – 400–600 zł/szt</li>
+      <li>Motion design – wycena indywidualna</li>
+    </ul>
+  </div>
+
+  <!-- Projekty niestandardowe -->
+  <button class="accordion-btn">Projekty niestandardowe</button>
+  <div class="panel">
+    <ul>
+      <li>Infografiki do raportów, prezentacji, postów edukacyjnych – 200–400 zł/szt</li>
+      <li>Grafiki do gier i aplikacji – wycena indywidualna</li>
+    </ul>
+  </div>
+</section>
+
+<!-- MEDIA -->
 <section id="media" class="links">
   <h2>Media społecznościowe</h2>
   <a href="https://www.facebook.com/share/1HFEaFoNi3/" target="_blank">Facebook</a>
-  <a href="https://www.instagram.com/__football_vision__" target="_blank">Instagram firmowy</a>
-  <a href="https://www.instagram.com/14kapi" target="_blank">Instagram prywatny</a>
+  <a href="https://www.instagram.com/14kapi" target="_blank">Instagram</a>
 </section>
 
+<!-- KONTAKT -->
 <section id="contact" class="contact">
-  <p>📞 785 514 285</p>
+  <p>
+    <a href="mailto:milcarzkacper65@gmail.com" style="color:white;text-decoration:none;font-size:1.1rem;">
+      <i class="fa-solid fa-envelope"></i> milcarzkacper65@gmail.com
+    </a>
+  </p>
   <span id="scheduleBtn" onclick="openForm()">Umów się</span>
 </section>
 
+
 <footer>© 2026 Kacper Milcarz</footer>
 
+<!-- MODALE -->
 <div class="modal" id="imgModal" onclick="closeModal()">
   <img id="modalImg">
 </div>
@@ -164,9 +282,11 @@ function closeModal(){
 function openForm(){
   formModal.classList.add("active");
 }
+
+// Formularz z komunikatem Gmail
 meetingForm.addEventListener("submit", e=>{
   e.preventDefault();
-  alert("Dziękujemy! Skontaktujemy się z Tobą.");
+  alert("Potwierdź zainteresowanie wysłaniem wiadomości na Gmail: milcarzkacper65@gmail.com");
   formModal.classList.remove("active");
 });
 
@@ -174,7 +294,15 @@ meetingForm.addEventListener("submit", e=>{
 function showMore(){
   document.getElementById("moreImages").style.display="grid";
 }
-</script>
 
-</body>
-  </html>
+// Accordion (cennik)
+const acc = document.getElementsByClassName("accordion-btn");
+for(let i=0;i<acc.length;i++){
+  acc[i].addEventListener("click", function(){
+    this.classList.toggle("active");
+    const panel = this.nextElementSibling;
+    if(panel.style.display === "block"){ panel.style.display = "none"; }
+    else{ panel.style.display = "block"; }
+  });
+}
+</script>
