@@ -201,8 +201,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
       </li>
     </ul>
   </div>
-    
-    
+
   <!-- Multimedia i animacje -->
   <button class="accordion-btn">Multimedia i animacje</button>
   <div class="panel">
