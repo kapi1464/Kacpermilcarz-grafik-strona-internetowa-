@@ -1,4 +1,4 @@
-<html lang="pl">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,7 +96,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 
 <!-- PRACE -->
 <section id="works" class="gallery">
-  <div class="work"><h2>Strony internetowe</h2><p>Projekowanie dla firm, klubów sportowych oraz twórców.</p></div>
+  <div class="work"><h2>Strony internetowe</h2><p>Projekowanie dla firm, klubów sportowych oraz twórców</p></div>
   <div class="work"><h2>Social Media</h2><p>Prowadzenie Facebooka, Instagrama, TikToka.</p></div>
   <div class="work"><h2>Event i reklamy</h2><p>Banery i grafiki reklamowe.</p></div>
 </section>
@@ -104,32 +104,42 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 <!-- PORTFOLIO -->
 <section id="portfolio">
   <h2 style="text-align:center;margin-bottom:30px;">Portfolio</h2>
+  
+  <!-- Widoczne od razu -->
   <div class="portfolio-grid">
-    <div class="portfolio-item">
-      <img src="https://i.postimg.cc/mhHPWRNQ/Grafika-Wynik-Meczu-Wierna-Malogoszcz.jpg" onclick="openModal(this)">
-    </div>
-    <div class="portfolio-item">
-      <img src="https://i.postimg.cc/DmXS3FdP/Grafika-Sklad-Wierna-Malogoszcz.jpg" onclick="openModal(this)">
-    </div>
-    <div class="portfolio-item">
-      <img src="https://i.postimg.cc/0rwz1xdd/Grafika-Dzien-Meczowy-Wierna-Malogoszcz.jpg" onclick="openModal(this)">
-      <span class="read-more" onclick="showMore()">Czytaj więcej</span>
-    </div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/rKmWKS7S/1-20260324-115609-0000.png" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/DJTLZRKz/2-20260306-211005-0001.png" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/HVhM5rCS/2-20260319-200858-0001.png" onclick="openModal(this)"></div>
   </div>
+  
+  <!-- Reszta po kliknięciu -->
   <div id="moreImages" style="display:none; margin-top:20px;" class="portfolio-grid">
-    <div class="portfolio-item"><img src="https://i.postimg.cc/KKjYqyvV/Picsart-26-02-13-17-36-50-090.jpg" onclick="openModal(this)"></div>
-    <div class="portfolio-item"><img src="https://i.postimg.cc/gwj0SP2b/Picsart-26-02-14-17-58-01-515.jpg" onclick="openModal(this)"></div>
-    <div class="portfolio-item"><img src="https://i.postimg.cc/VSvNGckQ/Picsart-26-02-14-20-42-41-620.jpg" onclick="openModal(this)"></div>
-    <div class="portfolio-item">
-  <img src="https://i.postimg.cc/BL9Hxbmx/2-20260306-211005-0001.png" onclick="openModal(this)">
-</div>
 
-<div class="portfolio-item">
-  <img src="https://i.postimg.cc/9R5ZG0L1/3-20260306-211005-0002.png" onclick="openModal(this)">
-    </div>
-    <div class="portfolio-item"><img src="https://i.postimg.cc/8FcCKVz8/Picsart-26-02-15-00-24-47-924.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/gXW8J1bC/3-20260306-211005-0002.png" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/RWJHTvS0/3-20260324-115609-0002.png" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/mzB1RM7p/5-20260327-204814-0004.png" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/k6qR98W1/6-20260327-231159-0005.png" onclick="openModal(this)"></div>
+
+    <div class="portfolio-item"><img src="https://i.postimg.cc/N5f8Rh2t/Grafika-Dzien-Meczowy-Wierna-Malogoszcz.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/7fY1SvJ5/Grafika-Sklad-Wierna-Malogoszcz.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/KRv7tX3R/Grafika-Wynik-Meczu-Wierna-Malogoszcz.jpg" onclick="openModal(this)"></div>
+
+    <div class="portfolio-item"><img src="https://i.postimg.cc/wyQJsF6p/KYLIAN-MBAPPE-20260320-211408-0000.png" onclick="openModal(this)"></div>
+
+    <div class="portfolio-item"><img src="https://i.postimg.cc/F7WyZP0P/Picsart-26-02-09-15-30-55-379.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/ppGfZ0Kk/Picsart-26-02-09-17-50-55-058.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/FYwjt7W0/Picsart-26-02-13-17-36-50-090.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/Vr8n62PR/Picsart-26-02-14-17-58-01-515.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/nXNv8CRz/Picsart-26-02-14-20-42-41-620.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/FYwjt7Wz/Picsart-26-02-15-00-24-47-924.jpg" onclick="openModal(this)"></div>
+    <div class="portfolio-item"><img src="https://i.postimg.cc/1gpVLMVk/Picsart-26-03-21-11-33-05-085.jpg" onclick="openModal(this)"></div>
+
   </div>
-</section>
+
+  <div style="text-align:center;margin-top:15px;">
+    <span class="read-more" onclick="showMore()">Zobacz więcej</span>
+  </div>
+  </section>
 
 <!-- CENNIK / OFERTA -->
 <section id="pricing" class="links">
@@ -306,3 +316,4 @@ for(let i=0;i<acc.length;i++){
   });
 }
 </script>
+
