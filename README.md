@@ -81,7 +81,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <h1>Kacper Milcarz – Grafik</h1>
   <p>Grafika, która przyciąga uwagę w mediach społecznościowych</p>
   <div class="about-me">
-    <p>Jestem grafikiem specjalizującym się w projektach sportowych oraz grafikach do social mediów. Tworzę estetyczne i dynamiczne materiały, które budują wizerunek i zwiększają zaangażowanie w internecie.</p>
+    <p>Jestem grafikiem specjalizującym się w projektach sportowych oraz grafikach do social mediów. Działam aktywnie w dziale marketingu. Tworzę estetyczne i dynamiczne materiały, które budują wizerunek i zwiększają profesjonalizm w internecie.</p>
   </div>
   <div class="tiles">
     <a href="#works" class="tile"><i class="fa-solid fa-pen-nib"></i><span>Prace</span></a>
