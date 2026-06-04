@@ -1,4 +1,3 @@
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,7 +80,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <h1>Kacper Milcarz – Grafik</h1>
   <p>Grafika, która przyciąga uwagę w mediach społecznościowych</p>
   <div class="about-me">
-    <p>Jestem grafikiem specjalizującym się w projektach sportowych oraz grafikach do social mediów. Działam aktywnie w dziale marketingu. Tworzę estetyczne i dynamiczne materiały, które budują wizerunek i zwiększają profesjonalizm w internecie.</p>
+    <p>Jestem grafikiem specjalizującym się w projektach sportowych oraz grafikach do social mediów. Tworzę estetyczne i dynamiczne materiały, które budują wizerunek i zwiększają zaangażowanie w internecie.</p>
   </div>
   <div class="tiles">
     <a href="#works" class="tile"><i class="fa-solid fa-pen-nib"></i><span>Prace</span></a>
@@ -149,67 +148,57 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Reklamy i marketing</button>
   <div class="panel">
     <ul>
-      <li>Projektowanie bannerów, plakatów, ulotek, billboardów – 150 zł/szt</li>
-      <li>Wizytówki – 120 zł/szt</li>
+      <li>Grafika Meczowa/zapowiedz/wyniki •100-150 zł</li>
+      <li>Posty Social Media •120-180 zł</li>
+      <li>Banery i Materialy Promocyjne •120-200 zł</li>
+      <li>Miniatury Na YouTube •120-160 zł</li>
     </ul>
   </div>
 
   <!-- Grafiki do mediów społecznościowych -->
-  <button class="accordion-btn">Grafiki do mediów społecznościowych</button>
+  <button class="accordion-btn">Breading i Identyfikacja wizulna</button>
   <div class="panel">
     <ul>
-      <li>Grafiki na kanały social media (Facebook, Instagram, TikTok) – 150 zł/szt</li>
-      <li>Miniaturki do filmów na YouTube – 140 zł/szt</li>
-      <li>Szablony do Instagram Stories, postów i reelsów – 160 zł/szt</li>
+      <li>Logo •400-900 zł</li>
+      <li>Identyfikacja wizualna •800-1500 zł</li>
+      <li>Pełna Identyfikacja wizualna klubu/firmy •1500-3500 zł</li>
     </ul>
   </div>
 
   <!-- Branding i identyfikacja wizualna -->
-  <button class="accordion-btn">Branding i identyfikacja wizualna</button>
+  <button class="accordion-btn">Strony Internetowe</button>
   <div class="panel">
     <ul>
-      <li>Tworzenie logo – od 400 zł</li>
-      <li>System identyfikacji wizualnej firmy – 800 zł</li>
-      <li>Projektowanie stron internetowych – wycena indywidualna </li>
+      <li>Strona klubowa/firmowa •2500-6000 zł</li>
+      <li>Rozbudowana Strona Internetowa klubowa/firmowa •4000-9000 zł</li>
     </ul>
   </div>
 
   <!-- Współprace -->
-  <button class="accordion-btn">Współprace – prowadzenie Social Mediów</button>
+  <button class="accordion-btn">Pakiet Social Media</button>
   <div class="panel">
-    <ul>
-      <li>Basic: 4 grafiki tygodniowo – 300 zł/mies</li>
-      <li>Standard: 7 grafik tygodniowo – 500 zł/mies</li>
-      <li>Premium: 7 grafik tygodniowo + animacje – 600 zł/mies</li>
-        </ul>
+      <li>Basic
+      •4 grafiki tygodniowo + podstawowa obsługa
+      •500-900 zł/mies</li>
       </li>
-      <li>Miniaturki do filmów na YouTube:
-        <ul>
-          <li>4/mies – 400 zł</li>
-          <li>8/mies – 800 zł</li>
-          <li>12/mies – 1000 zł</li>
-        </ul>
+      <li>Standard
+      •6/8 grafik tygodniowo + aktulizacje + wsparcie
+      •1000-1800 zł/mies</li>
       </li>
-      <li>Szablony do Instagram Stories, postów i reelsów:
-        <ul>
-          <li>5 szablonów – 600 zł</li>
-          <li>10 szablonów – 1200 zł</li>
+      <li>Premieum
+      •Pełna Obsługa Social + na bieżąco
+       •1800-3000 zł/mies</li>
         </ul>
       </li>
     </ul>
   </div>
 
   <!-- Współprace z klubami sportowymi -->
-  <button class="accordion-btn">Współprace z klubami sportowymi</button>
+  <button class="accordion-btn">Pakiety Klubowe</button>
   <div class="panel">
-  <ul>
-          <li>Basic – 250 zł/mies   
-    (wyniki meczowe,zapowiedzi meczy,informacje klubowe)</li>
-          <li>Standard – 350 zł/mies
-    (wyniki meczowe,zapowiedzi meczy,składy,*plakaty,dzień meczowy,informacje klubowe)</li>
-          <li>Premium – 400 zł/mies
-    (wyniki meczowe,zapowiedzi meczy,składy,*plakaty,dzień meczowy,informacje klubowe,animacje-video,wywiady-video)</li>
-          <li>Pakiet + (animacje, wywiady, transmisje live, skróty meczów) - wycena indywidualna</li>
+          <li>Pakiet Start • grafiki meczowe/podstawowe social media/4/6 garfik tygodniowo• 800-1500 zł/mies</li>
+          <li>Pakiet Standard • regularne grafiki meczowe/szablony klubowe/wsparcie strony •1500-2500 zł/mies</li>
+          <li>Pakiet Premium • Pełna obsługa wizerunku/szybkie grafiki/spójna wizualizacja • 2500-4000 zł/mies</li>
         </ul>
       </li>
     </ul>
@@ -217,11 +206,11 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
     
     
   <!-- Multimedia i animacje -->
-  <button class="accordion-btn">Multimedia i animacje</button>
+  <button class="accordion-btn">Multimedia i Animacje </button>
   <div class="panel">
     <ul>
-      <li>Animowane reklamy i intro do filmów – 400–600 zł/szt</li>
-      <li>Motion design – wycena indywidualna</li>
+      <li>Animowane reklamy i intro do filmów •300–700 zł/szt</li>
+      <li>Motion design •500-1500 zł/szt</li>
     </ul>
   </div>
 
@@ -229,8 +218,8 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <button class="accordion-btn">Projekty niestandardowe</button>
   <div class="panel">
     <ul>
-      <li>Infografiki do raportów, prezentacji, postów edukacyjnych – 200–400 zł/szt</li>
-      <li>Grafiki do gier i aplikacji – wycena indywidualna</li>
+      <li>Infografiki •150-300 zł/szt</li>
+      <li>Projkety niestandardowe •wycena indywidualna</li>
     </ul>
   </div>
 </section>
@@ -316,4 +305,5 @@ for(let i=0;i<acc.length;i++){
   });
 }
 </script>
+
 
