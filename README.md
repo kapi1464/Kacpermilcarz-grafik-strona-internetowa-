@@ -179,15 +179,17 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <div class="panel">
       <li>Basic
       •4 grafiki tygodniowo + podstawowa obsługa
-      •500-900 zł/mies
+      •500-900 zł/mies</li>
       </li>
       <li>Standard
       •6/8 grafik tygodniowo + aktulizacje + wsparcie
-      •1000-1800 zł/mies
+      •1000-1800 zł/mies</li>
       </li>
       <li>Premieum
       •Pełna Obsługa Social + na bieżąco
-       •1800-3000 zł/mies
+       •1800-3000 zł/mies</li>
+        </ul>
+      </li>
     </ul>
   </div>
 
@@ -197,6 +199,8 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
           <li>Pakiet Start • grafiki meczowe/podstawowe social media/4/6 garfik tygodniowo• 800-1500 zł/mies</li>
           <li>Pakiet Standard • regularne grafiki meczowe/szablony klubowe/wsparcie strony •1500-2500 zł/mies</li>
           <li>Pakiet Premium • Pełna obsługa wizerunku/szybkie grafiki/spójna wizualizacja • 2500-4000 zł/mies</li>
+        </ul>
+      </li>
     </ul>
   </div>
     
