@@ -77,8 +77,8 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
 <body>
 
 <header id="about">
-  <h1>Kacper Milcarz – Grafik</h1>
-  <p>Grafika, która przyciąga uwagę w mediach społecznościowych</p>
+  <h1>Kacper Milcarz – Visual Designer</h1>
+  <p>Branding • Visual Design • Web Design</p>
   <div class="about-me">
     <p>Jestem grafikiem specjalizującym się w projektach sportowych oraz grafikach do social mediów. Tworzę estetyczne i dynamiczne materiały, które budują wizerunek i zwiększają zaangażowanie w internecie.</p>
   </div>
