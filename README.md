@@ -198,7 +198,7 @@ footer{text-align:center;padding:30px;font-size:.7rem;opacity:.4;}
   <div class="panel">
           <li>Pakiet Start • grafiki meczowe/podstawowe social media/4/6 garfik tygodniowo• 800-1500 zł/mies</li>
           <li>Pakiet Standard • regularne grafiki meczowe/szablony klubowe/wsparcie strony •1500-2500 zł/mies</li>
-          <li>Pakiet Premium • Pełna obsługa wizerunku/szybkie grafiki/spójna wizualizacja • 2500-4000 zł/mies</li>
+          <li>Pakiet Premium • Pełna obsługa wizerunku/szybkie grafiki/spójna wizualizacja • 2500-4500 zł/mies</li>
         </ul>
       </li>
     </ul>
